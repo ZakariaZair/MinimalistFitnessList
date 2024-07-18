@@ -1,0 +1,63 @@
+{
+  "GymExercises": [
+    {
+      "name": "Leg_Press",
+      "sets": ["3 sets of 10", "4 sets of 12", "5 sets of 15"],
+      "type": "low_push"
+    },
+    {
+      "name": "Lat_Pulldowns",
+      "sets": ["3 sets of 10", "4 sets of 12", "5 sets of 15"],
+      "type": "up_pull"
+    },
+    {
+      "name": "Seated_Row",
+      "sets": ["3 sets of 10", "4 sets of 12", "5 sets of 15"],
+      "type": "up_pull"
+    },
+    {
+      "name": "Chest_Press",
+      "sets": ["3 sets of 8", "4 sets of 10", "5 sets of 12"],
+      "type": "up_push"
+    }
+  ],
+  "FullBodyExercises": [
+    {
+      "name": "Jumping_Jacks",
+      "sets": [
+        "3 sets of 30 seconds",
+        "4 sets of 45 seconds",
+        "5 sets of 60 seconds"
+      ],
+      "type": "fb"
+    },
+    {
+      "name": "Mountain_Climbers",
+      "sets": [
+        "3 sets of 30 seconds",
+        "4 sets of 45 seconds",
+        "5 sets of 60 seconds"
+      ],
+      "type": "core"
+    },
+    {
+      "name": "High_Knees",
+      "sets": [
+        "3 sets of 30 seconds",
+        "4 sets of 45 seconds",
+        "5 sets of 60 seconds"
+      ],
+      "type": "fb"
+    },
+    {
+      "name": "Burpees",
+      "sets": ["3 sets of 10", "4 sets of 15", "5 sets of 20"],
+      "type": "fb"
+    },
+    {
+      "name": "Plank_to_Push-Up",
+      "sets": ["3 sets of 8", "4 sets of 10", "5 sets of 12"],
+      "type": "core"
+    }
+  ]
+}

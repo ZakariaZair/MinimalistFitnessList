@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.exercice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    flex: 0 0 auto;
+}
+
+.exercice * {
+    margin: 2px;
+}
+
+.imgContainer {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    box-sizing: border-box; /* Ensure padding and border are included in the width/height */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.exoImgHover {
+    opacity: 0;
+}
+
+.imgContainer:hover .exoImgHover {
+    opacity: 1;
+}
+
+.imgContainer:hover .exoImg {
+    opacity: 0;
+}
+
+.set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    text-shadow:
+        -1px -1px 1px #000,
+        1px -1px 1px #000,
+        -1px 1px 1px #000,
+        1px 1px 1px #000,
+        0 0 1px #000;
+}
+
+.setText0 {
+    color: #d0efb5;
+}
+
+.setText1 {
+    color: #f3e595;
+}
+
+.setText2 {
+    color: #eb7878;
+}
+
+button {
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: #f2ebe6;
+    padding: 3px 10px;
+    border-radius: 6px;
+}
+
+button:hover {
+    color: white;
+    background-color: #f2ebe6;
+}
